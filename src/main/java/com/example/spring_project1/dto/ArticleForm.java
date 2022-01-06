@@ -2,6 +2,8 @@ package com.example.spring_project1.dto;
 
 import com.example.spring_project1.entity.Article;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.ToString;
 
 @AllArgsConstructor
