@@ -1,2 +1,2 @@
-# Spring_practice1
+# 스프링 연습 프로젝트 입니다.
  
