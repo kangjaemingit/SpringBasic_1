@@ -1,5 +1,6 @@
 package com.example.spring_project1.api;
 
+import com.example.spring_project1.annotation.RunningTime;
 import com.example.spring_project1.dto.CommentDto;
 import com.example.spring_project1.entity.Comment;
 import com.example.spring_project1.service.CommentService;
@@ -52,6 +53,7 @@ public class CommentApiController {
     }
 
     // 댓글 삭제
+    @RunningTime
     @DeleteMapping("/api/comments/{id}")
     public ResponseEntity<CommentDto> delete(@PathVariable Long id){
 
